@@ -7,7 +7,7 @@ import streamlit as st
 import time
 import pickle
 
-with open("data/hungarian.data", encoding='Latin1') as file:
+with open("final_data.csv", encoding='Latin1') as file:
   lines = [line.strip() for line in file]
 
 data = itertools.takewhile(
