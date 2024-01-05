@@ -18,11 +18,8 @@ import itertools
 
 """##Dataset"""
 
-dir = '/content/hungarian.data'
-#dir = pd.read_csv('https://raw.githubusercontent.com/jlstheo07/my_dataset/main/hungary_chickenpox.csv')
+dir = 'jlstheo07/BK_Hungarian_CP/data/hungarian.data'
 
-#from google.colab import drive
-#drive.mount('/content/drive')
 
 with open(dir, encoding='Latin1') as file:
   lines = [line.strip() for line in file]
