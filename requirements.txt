@@ -3,4 +3,5 @@ numpy
 imbalanced-learn
 scikit-learn
 streamlit
-xgboost
+#xgboost
+sklearn.neighbors
